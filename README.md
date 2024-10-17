@@ -1,0 +1,1 @@
+# Copy without commented areas (Панков Егор Александрович М3100)

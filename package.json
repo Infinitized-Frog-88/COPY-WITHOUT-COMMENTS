@@ -1,0 +1,31 @@
+{
+  "name": "copy-without-comments",
+  "displayName": "copy without commented areas",
+  "description": "copy your code to buffer without commented areas with Ctrl + D",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:cpp" 
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension88.copyWithoutComments",
+        "title": "Copy cpp code without commented areas"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension88.copyWithoutComments",
+        "key": "ctrl+d",
+        "when": "editorHasSelection"
+      }
+    ]
+  }
+}
